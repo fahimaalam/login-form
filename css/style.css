@@ -1,0 +1,307 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+body{
+	background: url(../img/bg.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	font-family: 'Scada', sans-serif;
+}
+.container{
+	width: 1140px;
+	margin: 0 auto;
+}
+.login-section{
+	width:50%;
+	float: right;
+	background-color:#8DA9A966;
+	height:600px;
+	margin-top: 120px;
+}
+.login-section img{
+	margin: 0 auto;
+	display: block;
+	width: 100px;
+	height: 120px;
+	padding: 15px 0px 10px 0px;
+}
+.login-section img:hover{
+	box-shadow: 0px 0px 5px 0px snow;
+}
+.login-section h2{
+	color: #332E2E;
+	text-align: center;
+	margin-bottom: 5px;
+}
+.login-section hr{
+	width: 25%;
+	margin: 0 auto;
+}
+.form-control{
+	width: 70%;
+	margin: 5px 86px;
+	padding: 4px;
+}
+.btn{
+	margin: 10px auto;
+  	display: block;
+  	width: 15%;
+  	padding: 3px;
+  	background-color: #5BA779;
+	border: none;
+	color: white;
+	font-size: 13px;
+	text-transform: uppercase;
+	border-radius: 5px;
+	text-decoration: none;
+	text-align: center;
+	transition: 0.4s ease-in-out;
+	-webkit-transition:.4s ease-in-out;
+	-moz-transition:.4s ease-in-out;
+	-o-transition:.4s ease-in-out;
+}
+.btn:hover{
+	box-shadow: 1px 5px 5px snow;
+	cursor: pointer;
+}
+.forget-password{
+	font-size: 13px;
+	padding-left: 88px;
+	color: #332E2E;
+	text-decoration: none;
+}
+.login-with{
+	font-size: 13px;
+	text-align: center;
+	color: #332E2E;
+}
+.google-btn{
+	margin: 0px auto;
+	display: block;
+	width: 30%;
+	padding: 5px;
+	text-align: center;
+	background-color:#34A853;
+	border: none;
+	color: white;
+	font-size: 13px;
+	border-radius: 5px;
+	text-decoration: none;
+}
+
+.google-btn:hover{
+	background-color: #2F2F31;
+	cursor: pointer;
+}
+.face-btn{
+	margin: 5px auto;
+	display: block;
+	width: 30%;
+	padding: 5px;
+	background-color:#3498DB;
+	border: none;
+	color: white;
+	font-size: 13px;
+	border-radius: 5px;
+	text-decoration: none;
+	text-align: center;
+}
+.face-btn:hover{
+	background-color: #2F2F31;
+	cursor: pointer;
+}
+.link-btn{
+	margin: 5px auto;
+	display: block;
+	width: 30%;
+	padding: 5px;
+	background-color:#0A66C2;
+	border: none;
+	color: white;
+	font-size: 13px;
+	border-radius: 5px;
+	text-decoration: none;
+	text-align: center;
+}
+.link-btn:hover{
+	background-color: #2F2F31;
+	cursor: pointer;
+}
+.account{
+	font-size: 13px;
+	padding-left: 190px;
+	color: #332E2E;
+	text-decoration: none;
+}
+/*********** forget password page ***********/
+.password-section{
+	width:50%;
+	float: right;
+	background-color:#8DA9A966;
+	height:700px;
+	margin-top: 120px;
+}
+.password-section img{
+	margin: 0 auto;
+	display: block;
+	width: 100px;
+	height: 120px;
+	padding: 15px 0px 10px 0px;
+}
+.password-section h2{
+	color: #332E2E;
+	text-align: center;
+	margin-bottom: 5px;
+}
+.password-section h4{
+	color: #332E2E;
+	text-align: center;
+	margin-bottom: 5px;
+}
+.password-section ol li{
+	color: #332E2E;
+	text-align: left;
+	font-size: 13px;
+	margin: 10px 55px;
+}
+.password-section hr{
+	width: 40%;
+	margin: 0 auto;
+}
+.reset-btn{
+	margin: 10px auto;
+  	display: block;
+  	width: 35%;
+  	padding: 5px;
+  	background-color: #DD731C;
+	border: none;
+	color: white;
+	font-size: 13px;
+	border-radius: 5px;
+	text-decoration: none;
+	text-align: center;
+	transition: 0.4s ease-in-out;
+	-webkit-transition:.4s ease-in-out;
+	-moz-transition:.4s ease-in-out;
+	-o-transition:.4s ease-in-out;
+}
+.reset-btn:hover{
+	box-shadow: 1px 5px 5px snow;
+	cursor: pointer;
+}
+/*********** signup page ***********/
+.signup-section{
+	width:50%;
+	float: right;
+	background-color:#8DA9A966;
+	height:700px;
+	margin-top: 120px;
+}
+.signup-section img{
+	margin: 0 auto;
+	display: block;
+	width: 100px;
+	height: 120px;
+	padding: 15px 0px 10px 0px;
+}
+.signup-section h3{
+	color: #332E2E;
+	text-align: center;
+	margin-bottom: 5px;
+}
+.signup-section hr{
+	width: 40%;
+	margin: 0 auto;
+}
+.label-control{
+	margin: 5px 86px;
+	color: #332E2E;
+	font-size: 14px;
+}
+.signup-control{
+	width: 70%;
+	margin: 5px 86px;
+	padding: 4px;
+}
+/*********** contact page ***********/
+.contact-section{
+	width:50%;
+	float: right;
+	background-color:#8DA9A966;
+	height:750px;
+	margin-top: 120px;
+}
+.contact-section img{
+	margin: 0 auto;
+	display: block;
+	width: 100px;
+	height: 120px;
+	padding: 15px 0px 10px 0px;
+}
+.contact-section h2{
+	color: #332E2E;
+	text-align: center;
+	margin-bottom: 5px;
+}
+.contact-section h5{
+	color: #332E2E;
+	text-align: left;
+	margin: 5px 86px;
+}
+.contact-section hr{
+	width: 40%;
+	margin: 0 auto;
+}
+.send-btn{
+	margin: 10px 0px 15px 85px;
+  	width: 15%;
+  	padding: 3px;
+  	background-color: #DD731C;
+	border: none;
+	color: white;
+	font-size: 13px;
+	text-transform: uppercase;
+	border-radius: 5px;
+	transition: 0.4s ease-in-out;
+	-webkit-transition:.4s ease-in-out;
+	-moz-transition:.4s ease-in-out;
+	-o-transition:.4s ease-in-out;
+}
+.send-btn:hover{
+	box-shadow: 1px 5px 5px snow;
+	cursor: pointer;
+}
+
+
+
+
+/*********** congratulations page ***********/
+.congratulations-section{
+	width:50%;
+	float: right;
+	background-color:#8DA9A966;
+	height:400px;
+	margin-top: 200px;
+}
+.congratulations-section img{
+	margin: 0 auto;
+	display: block;
+	width: 100px;
+	height: 120px;
+	padding: 30px 0px 20px 0px;
+}
+.congratulations-section h2{
+	color: #332E2E;
+	text-align: center;
+	margin-bottom: 5px;
+}
+.congratulations-section h5{
+	color: #332E2E;
+	text-align: left;
+	margin: 5px 86px;
+}
+.congratulations-section hr{
+	width: 40%;
+	margin: 0 auto;
+}
